@@ -22,6 +22,12 @@ public class ScoreService {
 	@Autowired
 	private ScoreRepository scoreRepository;
 	
+	/**
+	 * ESTE METODO RECEBE UM OBJETO ScoreDTO E RETORNA
+	 * UM OBJETO MovieDTO.
+	 * @param dto
+	 * @return MovieDTO
+	 */
 	@Transactional
 	public MovieDTO saveScore(ScoreDTO dto) {
 		
