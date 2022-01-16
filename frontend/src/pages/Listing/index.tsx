@@ -32,7 +32,9 @@ useEffect(()=> {
 });
 },[pageNumber]);
 
-
+const handlePageChange = (newPageNumber:number)=>{
+    setPageNumber(newPageNumber);
+}
 
 
 //FORMA ERRADA
@@ -53,7 +55,7 @@ useEffect(()=> {
     return (
         <>
 
-            <Pagination />
+            <Pagination  page={page} onChange={handlePageChange}/>
             <div className="container">
                 <div className="row">
                     {page.content.map(movie =>(
