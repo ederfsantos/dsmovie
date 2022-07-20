@@ -25,9 +25,6 @@ useEffect(()=> {
     axios.get(`${BASE_URL}/movies?size=12&page=${pageNumber}&sort=title`)
     .then(response =>{
         const data = response.data as MoviePage;
-       // console.log(response.data);
-        //setPageNumber(data.number);
-        //console.log(response.data);
         setPage(data);
 });
 },[pageNumber]);
@@ -37,25 +34,12 @@ const handlePageChange = (newPageNumber:number)=>{
 }
 
 
-//FORMA ERRADA
-//axios.get(`${BASE_URL}/movies?size=12&page=1`)
-//.then(response =>{
-  //  const data = response.data as MoviePage;
-    //setPageNumber(data.number);
-    //console.log(response.data);
-//})
 
-//const movie = {
-  //    id: 1,
-    //  image: "https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg",
-      //title: "The Witcher",
-   //count: 2,
- // score: 4.5
- // };
+
     return (
         <>
 
-            <Pagination  page={page} onChange={handlePageChange}/>
+        <Pagination page = {page} onChange={handlePageChange}/>
             <div className="container">
                 <div className="row">
                     {page.content.map(movie =>(
