@@ -18,8 +18,7 @@ function getFills(score: number) {
   const fills = [0, 0, 0, 0, 0];
   const integerPart = Math.floor(score);
   for (let i = 0; i < integerPart; i++) {
-    fills[i] = i;
-
+    fills[i] = 1;
   }
   const diff = score - integerPart;
   if (diff > 0) {
