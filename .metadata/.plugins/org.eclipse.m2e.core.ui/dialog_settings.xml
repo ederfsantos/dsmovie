@@ -2,6 +2,10 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\springboot\lab-padroes-projeto-spring-main"/>
+			<item value="C:\springboot\lab-padroes-projeto-spring-main_dio"/>
+			<item value="C:\springboot\meu-app-web"/>
+			<item value="D:\Documentos\CURSO SPRING BOOT UDEMY\minhasfinancas"/>
 			<item value="C:\projetos_1\dsmovie"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -12,5 +16,9 @@
 			<item value="[groupId].[artifactId]-[version]"/>
 			<item value="[name]"/>
 		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 </section>

@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=C\:\\projetos_1\\dsmovie\\.git;
-GitRepositoriesView.GitDirectories.relative=.git;
+GitRepositoriesView.GitDirectories=C\:\\springboot\\lab-padroes-projetos-spring\\.git;C\:\\projetos_1\\dsmovie\\.git;
+GitRepositoriesView.GitDirectories.relative=C\:\\springboot\\lab-padroes-projetos-spring\\.git;.git;
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1
